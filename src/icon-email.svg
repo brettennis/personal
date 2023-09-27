@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" version="1.1" viewBox="0 0 709 709" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(-45 -41)">
+        <path d="m133.33 233.34 206.67 155c35.557 26.667 84.443 26.667 120 0l206.67-155" fill="none" stroke="#fff" stroke-width="66.67px"/>
+    </g>
+    <g transform="translate(-45 -41)">
+        <path d="m700 233.33c0-36.794-29.872-66.666-66.667-66.666h-466.67c-36.795 0-66.667 29.872-66.667 66.666v333.33c0 36.794 29.872 66.666 66.667 66.666h466.67c36.795 0 66.667-29.872 66.667-66.666v-333.33z" fill="none" stroke="#fff" stroke-linejoin="miter" stroke-width="66.67px"/>
+    </g>
+</svg>
