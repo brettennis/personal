@@ -8,24 +8,6 @@ function App() {
   	return (
     	<div className='App'>
 
-			<ul className='logos'>
-				<li><a 
-					target="_blank" rel="noopener noreferrer"
-					href='mailto:brettennis4@gmail.com'>
-					<img className='logo' src={icon_email} alt='Email'></img>
-				</a></li>
-				<li><a 
-					target="_blank" rel="noopener noreferrer"
-					href='https://github.com/brettennis'>
-					<img className='logo' src={icon_github} alt='GitHub'></img>
-				</a></li>
-				<li><a 
-					target="_blank" rel="noopener noreferrer"
-					href='https://linkedin.com/in/brettennis'>
-					<img className='logo' src={icon_linkedin} alt='LinkedIn'></img>
-				</a></li>
-			</ul>
-
 			<div className='container'>
 				<main>
 
@@ -102,6 +84,25 @@ function App() {
 
 				</main>
 			</div>
+
+			<ul className='logos'>
+				<li><a 
+					target="_blank" rel="noopener noreferrer"
+					href='mailto:brettennis4@gmail.com'>
+					<img className='logo' src={icon_email} alt='Email'></img>
+				</a></li>
+				<li><a 
+					target="_blank" rel="noopener noreferrer"
+					href='https://github.com/brettennis'>
+					<img className='logo' src={icon_github} alt='GitHub'></img>
+				</a></li>
+				<li><a 
+					target="_blank" rel="noopener noreferrer"
+					href='https://linkedin.com/in/brettennis'>
+					<img className='logo' src={icon_linkedin} alt='LinkedIn'></img>
+				</a></li>
+			</ul>
+
     	</div>
   	);
 }

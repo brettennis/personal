@@ -28,14 +28,27 @@ p {
     padding: 0;
 }
 
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .logos {
+        list-style-type: none;
+        position: fixed;
+        bottom: 0;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+    }
+}
+
 .logos {
     list-style-type: none;
-    position: absolute;
+    width: 100%;
     bottom: 0;
     padding: 10px;
     margin: 0;
     display: flex;
 }
+
 
 .logo {
     width: 35px;
@@ -47,6 +60,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 main {
