@@ -1,4 +1,5 @@
 import './App.css';
+import icon_arrow from './icon-arrow.svg';
 import icon_email from './icon-email.svg';
 import icon_github from './icon-github.svg';
 import icon_linkedin from './icon-linkedin.png';
@@ -28,8 +29,50 @@ function App() {
 			<div className='container'>
 				<main>
 
-				<div className='name'>
-					<h1>Brett Ennis</h1>
+				<h1>Brett Ennis</h1>
+
+				<div className='about'>
+					<p>
+						Hey, I'm Brett. <br/><br/>  I'm a new grad with experience
+						in front-end technologies looking for a career 
+						in software development.
+					</p>
+				</div>
+
+				<div className='projects'>
+					<h2>Personal Projects</h2>
+
+					<ul>
+						<li>
+							<a target="_blank" rel="noopener noreferrer"
+							   href='https://bagelcam.vercel.app'>
+								BagelCam
+								<img className='arrow' src={icon_arrow} alt='Arrow'/>
+							</a>
+
+							<p>
+								Webcam photobooth with real-time controls
+								and easily shareable user presets
+							</p>
+
+							<h3> Svelte | Figma | OpenCV </h3>
+
+						</li>
+						<li>
+							<a target="_blank" rel="noopener noreferrer"
+							   href='https://glassy.vercel.app'>
+								Glassy
+								<img className='arrow' src={icon_arrow} alt='Arrow'/>
+							</a>
+
+							<p>
+								Simple weather app for forecasting surf conditions
+							</p>
+
+							<h3> React.js | Figma | Stormglass.io </h3>
+
+						</li>
+					</ul>
 				</div>
 
 				<div className='link-container'>
@@ -55,10 +98,6 @@ function App() {
 							in/brettennis
 						</a></li>
 					</ul>
-				</div>
-
-				<div className='projects'>
-					<h2>Personal Projects</h2>
 				</div>
 
 				</main>
