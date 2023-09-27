@@ -30,6 +30,7 @@ function App() {
 							   href='https://bagelcam.vercel.app'>
 								BagelCam
 								<img className='arrow' src={icon_arrow} alt='Arrow'/>
+								<p>desktop only</p>
 							</a>
 
 							<p>
