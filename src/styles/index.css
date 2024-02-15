@@ -1,0 +1,47 @@
+* {
+  --100: #171717;
+  --90: #202020;
+  --20: #bdbdbd;
+  --5: #f2f2f2;
+  --accent: #67f7c8;
+}
+
+body {
+  margin: 0;
+  background-color: var(--100);
+  font-family: "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--20);
+  font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .logos {
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+  }
+}
